@@ -464,6 +464,85 @@ section.inner-bnr .bar-text h2 {
   color: #fff;
 }
 
+section.best-hotels {
+  padding: 80px 0;
+}
+section.best-hotels .best-hotel {
+  text-align: center;
+}
+section.best-hotels .best-hotel h3 {
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
+  text-transform: capitalize;
+  color: #000;
+}
+section.best-hotels .best-hotel p {
+  color: #000;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 2.25;
+}
+
+section.top-hotels h3 {
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: "Alike", serif;
+  font-size: 26px;
+}
+section.top-hotels .top-hotel .wrapper-card {
+  background-color: #fff;
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+section.top-hotels .top-hotel .wrapper-card figure {
+  margin: 0;
+  overflow: hidden;
+}
+section.top-hotels .top-hotel .wrapper-card figure img {
+  height: 275px;
+  object-fit: cover;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+section.top-hotels .top-hotel .wrapper-card figure img:hover {
+  transform: scale(1.6) rotate(25deg);
+}
+section.top-hotels .top-hotel .wrapper-card .content-wrapper {
+  padding: 30px;
+}
+section.top-hotels .top-hotel .wrapper-card .content-wrapper h4 {
+  font-weight: 700;
+  color: #4c5c7e;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+section.top-hotels .top-hotel .wrapper-card .content-wrapper p {
+  color: #000;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 28px;
+}
+section.top-hotels .top-hotel .wrapper-card .content-wrapper .btn-wrapper a {
+  background-color: #4c5c7e;
+  color: #fff;
+  padding: 14px 40px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #4c5c7e;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+section.top-hotels .top-hotel .wrapper-card .content-wrapper .btn-wrapper a:hover {
+  background-color: transparent;
+  color: #4c5c7e;
+  border: 1px solid #4c5c7e;
+}
+section.top-hotels .top-hotel.ccean {
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 1199px) {
   section.site-banner {
     height: auto;

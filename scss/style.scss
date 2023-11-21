@@ -535,6 +535,105 @@ section.inner-bnr {
     }
 }
 
+// 
+section.best-hotels {
+    padding: 80px 0;
 
+    .best-hotel {
+        text-align: center;
+
+        h3 {
+            font-weight: 500;
+            letter-spacing: 0.10em;
+            margin-bottom: 0.5em;
+            text-transform: capitalize;
+            color: $color_black;
+        }
+
+        p {
+            color: $color_black;
+            font-size: 16px;
+            font-family: "Roboto", sans-serif;
+            line-height: 2.25;
+
+        }
+    }
+}
+
+section.top-hotels {
+    h3 {
+        margin-bottom: 80px;
+        text-align: center;
+        font-family: "Alike", serif;
+        font-size: 26px;
+    }
+
+    .top-hotel {
+        .wrapper-card {
+            background-color: #fff;
+            height: 100%;
+            border-radius: 6px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+            figure {
+                margin: 0;
+                overflow: hidden;
+
+                img {
+                    height: 275px;
+                    object-fit: cover;
+                    object-fit: cover;
+                    transition: transform .5s ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.6) rotate(25deg);
+                    }
+                }
+            }
+
+            .content-wrapper {
+                padding: 30px;
+
+                h4 {
+                    font-weight: 700;
+                    color: $site-color;
+                    font-size: 20px;
+                    font-family: "Roboto", sans-serif;
+                }
+
+                p {
+                    color: $color_black;
+                    font-size: 16px;
+                    font-family: "Roboto", sans-serif;
+                    line-height: 28px;
+                }
+
+                .btn-wrapper {
+                    a {
+                        background-color: $site-color;
+                        color: $color_1;
+                        padding: 14px 40px;
+                        font-size: 16px;
+                        border-radius: 6px;
+                        border: 1px solid $site-color;
+                        display: inline-block;
+                        transition: all 0.3s ease-in-out;
+
+                        &:hover {
+                            background-color: transparent;
+                            color: $site-color;
+                            border: 1px solid $site-color;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        &.ccean {
+            margin-top: 30px;
+        }
+    }
+}
 
 @import'./responsive';
