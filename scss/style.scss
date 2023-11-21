@@ -41,7 +41,7 @@ img {
 
 .navbar-area {
     padding: 10px 0;
-    background-color: #4c5c7e;
+    background-color: $site-color;
     border-bottom: solid 2px #da8661;
 
 }
@@ -225,7 +225,7 @@ section.diverse {
 }
 
 footer.footer {
-    background-color: #4c5c7e;
+    background-color: $site-color;
     padding: 60px 0 0 0;
     margin-top: 100px;
 
@@ -253,7 +253,7 @@ footer.footer {
         width: 40px;
         padding: 9px;
         text-align: center;
-        color: #4c5c7e;
+        color: $site-color;
         font-size: 22px;
         border-radius: 30px;
         transition: all 0.2s;
@@ -451,5 +451,66 @@ img.content-image {
     object-fit: cover;
     border-radius: 6px
 }
+
+
+// Privacy Policy
+section.privacy {
+    padding: 80px;
+
+    .privacy-text {
+        h2 {
+            text-align: center;
+            font-family: 'Alike', serif;
+            font-size: 40px;
+            color: $site-color;
+        }
+    }
+}
+
+section.resource {
+    .resource-inner {
+        h5 {
+
+            font-family: "Alike", serif;
+            font-size: 26px;
+            color: $site-color;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+
+        p {
+            color: $color_black;
+            font-size: 16px;
+            font-family: "Roboto", sans-serif;
+            line-height: 2.25;
+
+        }
+
+        ul {
+            li {
+                color: $color_black;
+                font-size: 16px;
+                font-family: "Roboto", sans-serif;
+                line-height: 2.25;
+                position: relative;
+                padding-left: 20px;
+                padding-bottom: 15px;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    background: $site-color;
+                    width: 8px;
+                    height: 8px;
+                    top: 8px;
+                    left: 0;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+
 
 @import'./responsive';
