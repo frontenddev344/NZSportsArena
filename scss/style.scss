@@ -634,6 +634,14 @@ section.top-hotels {
             margin-top: 30px;
         }
     }
+
+    .top-hotel.ccean.last {
+        .row {
+            .col-lg-4:last-child {
+                margin-top: 30px;
+            }
+        }
+    }
 }
 
 @import'./responsive';

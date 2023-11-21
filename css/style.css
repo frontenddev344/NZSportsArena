@@ -542,6 +542,9 @@ section.top-hotels .top-hotel .wrapper-card .content-wrapper .btn-wrapper a:hove
 section.top-hotels .top-hotel.ccean {
   margin-top: 30px;
 }
+section.top-hotels .top-hotel.ccean.last .row .col-lg-4:last-child {
+  margin-top: 30px;
+}
 
 @media screen and (max-width: 1199px) {
   section.site-banner {
