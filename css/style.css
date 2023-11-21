@@ -546,6 +546,9 @@ section.top-hotels .top-hotel.ccean.last .row .col-lg-4:last-child {
   margin-top: 30px;
 }
 
+section.location {
+  padding-top: 80px;
+}
 @media screen and (max-width: 1199px) {
   section.site-banner {
     height: auto;
@@ -597,6 +600,10 @@ section.top-hotels .top-hotel.ccean.last .row .col-lg-4:last-child {
   }
   footer.footer .knsl-footer-social {
     margin-bottom: 30px;
+  }
+  section.top-hotels .top-hotel .row .col-lg-4:nth-child(2),
+  section.top-hotels .top-hotel .row .col-lg-4:nth-child(3) {
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 767px) {
