@@ -549,6 +549,13 @@ section.top-hotels .top-hotel.ccean.last .row .col-lg-4:last-child {
 section.location {
   padding-top: 80px;
 }
+section.location .location-wrapper p {
+  color: #000;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 28px;
+}
+
 @media screen and (max-width: 1199px) {
   section.site-banner {
     height: auto;
