@@ -444,6 +444,18 @@ section.resource .resource-inner ul li::after {
   border-radius: 50%;
 }
 
+section.inner-bnr {
+  background: url(../images/hotels.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
 @media screen and (max-width: 1199px) {
   section.site-banner {
     height: auto;

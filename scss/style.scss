@@ -511,6 +511,19 @@ section.resource {
     }
 }
 
+// section.inner-bnr{
+section.inner-bnr {
+    background: url(../images/hotels.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
 
 
 @import'./responsive';

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hotels</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Header section start form here -->
+    <header class="header-area">
+        <!-- site-navbar start -->
+        <div class="">
+            <div class="navbar-area">
+                <div class="container">
+                    <nav class="site-navbar">
+                        <!-- site logo -->
+                        <a href="index.html" class="site-logo">
+                            <img src="images/New Project - 2023-11-20T182005.547.png" alt="logo">
+                        </a>
+
+                        <!-- site menu/nav -->
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">Hotels</a></li>
+                            <li><a href="">Casinos</a></li>
+                            <li><a href="">Stadiums</a></li>
+                            <li><a href="">About Us </a></li>
+                        </ul>
+
+                        <!-- nav-toggler for mobile version only -->
+                        <button class="nav-toggler">
+                            <span></span>
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- navbar-area end -->
+
+
+    </header>
+    <!-- Header section end  here -->
+    <!-- Banner section start form here -->
+    <main class="banner-main">
+        <section class="inner-bnr">
+            <div class="container">
+                <div class="bar-text">
+                    <h2>Hotels
+                    </h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Banner section end here -->
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <a href="index.html">
+                            <img class="knsl-footer-logo" src="img/logo.png" alt="footer-logo">
+                        </a>
+                        <div class="knsl-footer-about">Step into the heart of NZSportsArena, your ultimate resource for
+                            exploring the finest hotels, cutting-edge sports stadiums, and exhilarating casinos across
+                            New Zealand.
+                        </div>
+                        <div class="knsl-footer-social">
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <h4>Menu</h4>
+                        <ul class="footer-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">Hotels</a></li>
+                            <li><a href="">Casinos</a></li>
+                            <li><a href="">Stadiums</a></li>
+                            <li><a href="">About Us </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4>Links</h4>
+                        <ul class="footer-menu">
+                            <li><a href="privacy-policy.html">Privacy Policy
+                                </a></li>
+                            <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4>Instagram</h4>
+                        <div class="footer-insta">
+                            <a href="#"><img src="images/1.jpg" alt="Image"></a>
+                            <a href="#"><img src="images/2.jpg" alt="Image"></a>
+                            <a href="#"><img src="images/3.jpg" alt="Image"></a>
+                            <a href="#"><img src="images/4.jpg" alt="Image"></a>
+                            <a href="#"><img src="images/5.jpg" alt="Image"></a>
+                            <a href="#"><img src="images/6.jpg" alt="Image"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="knsl-copyright">
+                <div class="container">
+                    <div class="copy-text">
+                        <div class="copy-text">Copyright © 2023 <a href="index.html">NZSportsArena</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        const navToggler = document.querySelector('.nav-toggler');
+        const navMenu = document.querySelector('.site-navbar ul');
+        const navLinks = document.querySelectorAll('.site-navbar a');
+
+        allEventListners();
+
+
+        function allEventListners() {
+
+            navToggler.addEventListener('click', togglerClick);
+
+            navLinks.forEach(elem => elem.addEventListener('click', navLinkClick));
+        }
+
+
+        function togglerClick() {
+            navToggler.classList.toggle('toggler-open');
+            navMenu.classList.toggle('open');
+        }
+
+
+        function navLinkClick() {
+            if (navMenu.classList.contains('open')) {
+                navToggler.click();
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
