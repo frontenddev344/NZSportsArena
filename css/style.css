@@ -455,6 +455,14 @@ section.inner-bnr {
   align-items: center;
   justify-self: center;
 }
+section.inner-bnr .bar-text {
+  text-align: center;
+}
+section.inner-bnr .bar-text h2 {
+  font-family: "Alike", serif;
+  font-size: 40px;
+  color: #fff;
+}
 
 @media screen and (max-width: 1199px) {
   section.site-banner {

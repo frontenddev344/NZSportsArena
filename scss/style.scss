@@ -522,6 +522,17 @@ section.inner-bnr {
     display: flex;
     align-items: center;
     justify-self: center;
+
+
+    .bar-text {
+        text-align: center;
+
+        h2 {
+            font-family: "Alike", serif;
+            font-size: 40px;
+            color: $color_1;
+        }
+    }
 }
 
 
