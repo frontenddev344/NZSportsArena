@@ -634,7 +634,7 @@ section.location .location-main .item-card p {
 section.location .location-main.decisions {
   margin-top: 30px;
 }
-section.location .location-main.decisions .row .col-lg-4:last-child {
+section.location .location-main.decisions .row .col-lg-4:nth-child(4), section.location .location-main.decisions .row .col-lg-4:last-child {
   margin-top: 30px;
 }
 
@@ -653,6 +653,18 @@ section.location .location-main.decisions .row .col-lg-4:last-child {
   max-width: 50px;
   margin: 0 auto;
   filter: brightness(0) invert(1);
+}
+
+section.inner-bnr.casinos {
+  background: url(../images/Casinos-bnr.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-self: center;
 }
 
 @media screen and (max-width: 1199px) {

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
 @import './variables';
+@import './mixin';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* default css start */
@@ -518,14 +519,7 @@ section.resource {
 // section.inner-bnr{
 section.inner-bnr {
     background: url(../images/hotels.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 500px;
-    background-size: cover;
-    object-fit: cover;
-    display: flex;
-    align-items: center;
-    justify-self: center;
+    @include bg-pro;
 
 
     .bar-text {
@@ -748,6 +742,7 @@ section.location {
         &.decisions {
             margin-top: 30px;
 
+            & .row .col-lg-4:nth-child(4),
             & .row .col-lg-4:last-child {
                 margin-top: 30px;
             }
@@ -774,6 +769,13 @@ section.location {
     max-width: 50px;
     margin: 0 auto;
     filter: brightness(0) invert(1);
+}
+
+//  casino page css start form here
+section.inner-bnr.casinos {
+    background: url(../images/Casinos-bnr.jpeg);
+    @include bg-pro;
+
 }
 
 @import'./responsive';
