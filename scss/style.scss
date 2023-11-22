@@ -197,7 +197,7 @@ section.site-banner {
     display: flex;
     align-items: center;
     z-index: 1;
-    animation: zoom 20s ease-in-out infinite;
+
 
     &::after {
         background-color: rgb(0 0 0 / 29%);
@@ -237,22 +237,7 @@ section.site-banner {
     }
 }
 
-@keyframes zoom {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
 
-    50% {
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
 
 // banner  css end  here 
 
@@ -503,18 +488,33 @@ img.content-image {
 // Privacy Policy
 section.privacy {
     padding: 80px;
+    background: url(../images/Privacy-.avif);
+    @include bg-pro;
+    z-index: 1;
+
+    &::after {
+        background-color: rgb(0 0 0 / 29%);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: '';
+        inset: 0;
+        z-index: -1;
+    }
 
     .privacy-text {
         h2 {
             text-align: center;
             font-family: 'Alike', serif;
             font-size: 40px;
-            color: $site-color;
+            color: $color_1;
         }
     }
 }
 
 section.resource {
+    padding: 80px 0 0;
+
     .resource-inner {
         h5 {
 
@@ -556,6 +556,12 @@ section.resource {
             }
         }
     }
+}
+
+section.privacy.term {
+    background: url(../images/termn.jpg);
+    @include bg-pro;
+    z-index: 1;
 }
 
 // section.inner-bnr{

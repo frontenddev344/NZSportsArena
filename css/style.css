@@ -164,7 +164,6 @@ section.site-banner {
   display: flex;
   align-items: center;
   z-index: 1;
-  animation: zoom 20s ease-in-out infinite;
 }
 section.site-banner::after {
   background-color: rgba(0, 0, 0, 0.29);
@@ -199,20 +198,6 @@ section.site-banner .bar-text p {
   margin-top: 12px;
 }
 
-@keyframes zoom {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
 section.diverse {
   padding: 80px 0;
 }
@@ -435,14 +420,37 @@ img.content-image {
 
 section.privacy {
   padding: 80px;
+  background: url(../images/Privacy-.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  position: relative;
+  z-index: 1;
+}
+section.privacy::after {
+  background-color: rgba(0, 0, 0, 0.29);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  inset: 0;
+  z-index: -1;
 }
 section.privacy .privacy-text h2 {
   text-align: center;
   font-family: "Alike", serif;
   font-size: 40px;
-  color: #4c5c7e;
+  color: #fff;
 }
 
+section.resource {
+  padding: 80px 0 0;
+}
 section.resource .resource-inner h5 {
   font-family: "Alike", serif;
   font-size: 26px;
@@ -474,6 +482,20 @@ section.resource .resource-inner ul li::after {
   top: 8px;
   left: 0;
   border-radius: 50%;
+}
+
+section.privacy.term {
+  background: url(../images/termn.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  position: relative;
+  z-index: 1;
 }
 
 section.inner-bnr {
@@ -756,10 +778,16 @@ section.inner-bnr.stadiums {
 @media screen and (max-width: 1199px) {
   section.site-banner {
     height: auto;
-    padding: 100px 0;
+    padding: 150px 0;
   }
   section.site-banner .bar-text h1 {
     font-size: 60px;
+  }
+  .site-navbar ul li {
+    padding: 0 17px;
+  }
+  .site-navbar ul li a {
+    padding: 0px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -775,7 +803,7 @@ section.inner-bnr.stadiums {
     width: 100%;
     height: calc(100vh - 60px);
     left: 0;
-    top: 80px;
+    top: 94px;
     flex-direction: column;
     align-items: center;
     background-color: #00486c;
@@ -813,6 +841,9 @@ section.inner-bnr.stadiums {
   section.location .location-main .row .col-lg-4:nth-child(3) {
     margin-top: 30px;
   }
+  .content {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (max-width: 767px) {
   section.site-banner .bar-text h1 {
@@ -827,10 +858,18 @@ section.inner-bnr.stadiums {
     margin: 0 auto;
     justify-content: center;
   }
+  a.site-logo img {
+    max-width: 60%;
+  }
 }
 @media screen and (max-width: 575px) {
   footer.footer .footer-insta {
     width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .site-navbar ul {
+    top: 87px;
   }
 }
 
