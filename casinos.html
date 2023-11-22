@@ -16,7 +16,7 @@
 
 <body>
     <!-- Header section start form here -->
-    <header class="header-area">
+    <header class="page-header">
         <!-- site-navbar start -->
         <div class="">
             <div class="navbar-area">
@@ -401,6 +401,20 @@
             }
         }
 
+
+    </script>
+     <script>
+        const header = document.querySelector(".page-header");
+        const toggleClass = "is-sticky";
+
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 150) {
+                header.classList.add(toggleClass);
+            } else {
+                header.classList.remove(toggleClass);
+            }
+        });
 
     </script>
 </body>
