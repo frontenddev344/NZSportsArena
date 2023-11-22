@@ -71,6 +71,12 @@
     section.top-hotels .top-hotel .row .col-lg-4:nth-child(3) {
         margin-top: 30px;
     }
+
+    section.location .location-main .row .col-lg-4:nth-child(2),
+    section.location .location-main .row .col-lg-4:nth-child(3) {
+        margin-top: 30px;
+
+    }
 }
 
 @media screen and (max-width: 767px) {

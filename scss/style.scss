@@ -660,6 +660,7 @@ section.location {
 
     .location-main {
         margin-top: 80px;
+
         .item-card {
             text-align: center;
             background: #fff;
@@ -720,6 +721,11 @@ section.location {
                     max-width: 34px;
                     margin: 0 auto;
                     filter: brightness(0) invert(1);
+                    animation-name: objects-on-platform;
+                    animation-duration: 2s;
+                    animation-timing-function: ease-in-out;
+                    animation-fill-mode: forwards;
+                    animation-iteration-count: infinite;
                 }
             }
 
@@ -737,10 +743,28 @@ section.location {
 
         &.decisions {
             margin-top: 30px;
+
+            & .row .col-lg-4:last-child {
+                margin-top: 30px;
+            }
         }
+
     }
 }
 
+@keyframes objects-on-platform {
+    0% {
+        transform: rotate(-7deg);
+    }
+
+    50% {
+        transform: rotate(7deg);
+    }
+
+    100% {
+        transform: rotate(-7deg);
+    }
+}
 
 
 

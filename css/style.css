@@ -613,6 +613,11 @@ section.location .location-main .item-card .icon-box img {
   max-width: 34px;
   margin: 0 auto;
   filter: brightness(0) invert(1);
+  animation-name: objects-on-platform;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 section.location .location-main .item-card h3 {
   font-family: "Alike", serif;
@@ -626,7 +631,21 @@ section.location .location-main .item-card p {
 section.location .location-main.decisions {
   margin-top: 30px;
 }
+section.location .location-main.decisions .row .col-lg-4:last-child {
+  margin-top: 30px;
+}
 
+@keyframes objects-on-platform {
+  0% {
+    transform: rotate(-7deg);
+  }
+  50% {
+    transform: rotate(7deg);
+  }
+  100% {
+    transform: rotate(-7deg);
+  }
+}
 .choose-inr .choose-box img {
   max-width: 50px;
   margin: 0 auto;
@@ -687,6 +706,10 @@ section.location .location-main.decisions {
   }
   section.top-hotels .top-hotel .row .col-lg-4:nth-child(2),
   section.top-hotels .top-hotel .row .col-lg-4:nth-child(3) {
+    margin-top: 30px;
+  }
+  section.location .location-main .row .col-lg-4:nth-child(2),
+  section.location .location-main .row .col-lg-4:nth-child(3) {
     margin-top: 30px;
   }
 }
