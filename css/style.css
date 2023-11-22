@@ -486,6 +486,17 @@ section.inner-bnr {
   display: flex;
   align-items: center;
   justify-self: center;
+  position: relative;
+  z-index: 1;
+}
+section.inner-bnr::after {
+  background-color: rgba(0, 0, 0, 0.3490196078);
+  position: absolute;
+  inset: 0;
+  content: "";
+  height: 100%;
+  z-index: -1;
+  width: 100%;
 }
 section.inner-bnr .bar-text {
   text-align: center;
@@ -694,6 +705,8 @@ section.inner-bnr.casinos {
   display: flex;
   align-items: center;
   justify-self: center;
+  position: relative;
+  z-index: 1;
 }
 
 section.inner-bnr.about {
@@ -706,6 +719,8 @@ section.inner-bnr.about {
   display: flex;
   align-items: center;
   justify-self: center;
+  position: relative;
+  z-index: 1;
 }
 
 section.vision-wrapper .vision h4 {
@@ -723,6 +738,19 @@ section.vision-wrapper .vision h5 {
   font-weight: 500;
   text-transform: capitalize;
   font-family: "Alike", serif;
+}
+
+section.inner-bnr.stadiums {
+  background: url(../images/Stadium.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  position: relative;
 }
 
 @media screen and (max-width: 1199px) {

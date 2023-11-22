@@ -64,7 +64,7 @@ img {
     backdrop-filter: blur(10px);
     animation: slideDown 0.35s ease-out;
     background-color: $site-color;
-  
+
 
 
 }
@@ -562,7 +562,18 @@ section.resource {
 section.inner-bnr {
     background: url(../images/hotels.png);
     @include bg-pro;
+    z-index: 1;
 
+
+    &::after {
+        background-color: #00000059;
+        position: absolute;
+        inset: 0;
+        content: '';
+        height: 100%;
+        z-index: -1;
+        width: 100%;
+    }
 
     .bar-text {
         text-align: center;
@@ -817,6 +828,7 @@ section.location {
 section.inner-bnr.casinos {
     background: url(../images/Casinos-bnr.jpeg);
     @include bg-pro;
+    z-index: 1;
 
 }
 
@@ -824,6 +836,7 @@ section.inner-bnr.casinos {
 section.inner-bnr.about {
     background: url(../images/About-Us.jpg);
     @include bg-pro;
+    z-index: 1;
 }
 
 section.vision-wrapper {
@@ -846,6 +859,12 @@ section.vision-wrapper {
             font-family: "Alike", serif;
         }
     }
+}
+
+// 
+section.inner-bnr.stadiums {
+    background: url(../images/Stadium.webp);
+    @include bg-pro;
 }
 
 @import'./responsive';
