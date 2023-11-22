@@ -56,9 +56,11 @@ img {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-header.is-sticky {
   position: fixed;
-  padding: 8px 0;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  padding: 14px 0;
   backdrop-filter: blur(10px);
   animation: slideDown 0.35s ease-out;
+  background-color: #4c5c7e;
 }
 
 @keyframes slideDown {
@@ -69,6 +71,10 @@ img {
     transform: translateY(0);
   }
 }
+a.site-logo img {
+  max-width: 50%;
+}
+
 .site-navbar {
   display: flex;
   justify-content: space-between;
@@ -700,6 +706,23 @@ section.inner-bnr.about {
   display: flex;
   align-items: center;
   justify-self: center;
+}
+
+section.vision-wrapper .vision h4 {
+  color: #4c5c7e;
+  font-family: "Alike", serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: 0;
+}
+section.vision-wrapper .vision h5 {
+  color: #4c5c7e;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: "Alike", serif;
 }
 
 @media screen and (max-width: 1199px) {

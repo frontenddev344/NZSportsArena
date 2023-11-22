@@ -59,10 +59,12 @@ img {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-header.is-sticky {
     position: fixed;
-    // box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
-    padding: 8px 0;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    padding: 14px 0;
     backdrop-filter: blur(10px);
     animation: slideDown 0.35s ease-out;
+    background-color: $site-color;
+  
 
 
 }
@@ -87,6 +89,9 @@ img {
 
 
 // }
+a.site-logo img {
+    max-width: 50%;
+}
 
 .site-navbar {
     display: flex;
@@ -819,6 +824,28 @@ section.inner-bnr.casinos {
 section.inner-bnr.about {
     background: url(../images/About-Us.jpg);
     @include bg-pro;
+}
+
+section.vision-wrapper {
+    .vision {
+        h4 {
+            color: $site-color;
+            font-family: "Alike", serif;
+            font-size: 28px;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            font-weight: 00;
+        }
+
+        h5 {
+            color: $site-color;
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: capitalize;
+            font-family: "Alike", serif;
+        }
+    }
 }
 
 @import'./responsive';
