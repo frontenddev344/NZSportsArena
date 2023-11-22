@@ -558,6 +558,9 @@ section.location .location-wrapper p {
   font-family: "Roboto", sans-serif;
   line-height: 28px;
 }
+section.location .location-wrapper.criteria {
+  margin-top: 70px;
+}
 section.location .location-main {
   margin-top: 80px;
 }
