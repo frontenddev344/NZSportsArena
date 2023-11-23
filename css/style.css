@@ -14,7 +14,7 @@ p {
 
 ::selection {
   background: rgb(218, 134, 97);
-  color: #FFFFFF;
+  color: #fff;
 }
 
 ul {
@@ -240,7 +240,7 @@ footer.footer .knsl-footer-social i {
   transition: all 0.2s;
 }
 footer.footer .knsl-footer-social i:hover {
-  background-color: #da8661;
+  background-color: #cb8670;
   color: #fff;
 }
 footer.footer .knsl-footer-social a {
@@ -313,7 +313,6 @@ footer.footer .knsl-copyright {
   font-size: 15px;
   background-color: rgba(0, 0, 0, 0.15);
   padding: 20px 0;
-  color: #8588A2;
   margin-top: 60px;
 }
 footer.footer .knsl-copyright .container {

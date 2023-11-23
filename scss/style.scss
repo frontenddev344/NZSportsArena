@@ -17,7 +17,7 @@ p {
 
 ::selection {
     background: rgba(218, 134, 97, 1);
-    color: #FFFFFF;
+    color: $color_1;
 }
 
 ul {
@@ -116,11 +116,11 @@ a.site-logo img {
                 font-weight: 400;
 
                 &:hover {
-                    color: #cb8670;
+                    color: $active-color;
                 }
 
                 &.active {
-                    color: #cb8670 !important;
+                    color: $active-color !important;
                 }
             }
         }
@@ -215,7 +215,7 @@ section.site-banner {
         text-align: center;
 
         h1 {
-            color: #fff;
+            color: $color_1;
             font-family: 'Alike', serif;
             font-size: 85px;
             letter-spacing: 2px;
@@ -289,7 +289,7 @@ footer.footer {
         transition: all 0.2s;
 
         &:hover {
-            background-color: #da8661;
+            background-color:$active-color;
             color: $color_1;
         }
     }
@@ -322,7 +322,7 @@ footer.footer {
         text-transform: capitalize;
 
         &:hover {
-            color: #cb8670;
+            color: $active-color;
             padding-left: 10px;
         }
     }
@@ -373,7 +373,6 @@ footer.footer {
         font-size: 15px;
         background-color: rgba(0, 0, 0, 0.15);
         padding: 20px 0;
-        color: #8588A2;
         margin-top: 60px;
     }
 
@@ -398,7 +397,7 @@ footer.footer {
         font-family: 'Noto Sans', sans-serif;
 
         a {
-            color: #cb8670
+            color: $active-color
         }
     }
 }
@@ -460,7 +459,7 @@ footer.footer {
 }
 
 .content-details h3 {
-    color: #fff;
+    color: $color_1;
     font-weight: 500;
     letter-spacing: 0.15em;
     margin-bottom: 0.5em;
@@ -468,7 +467,7 @@ footer.footer {
 }
 
 .content-details p {
-    color: #fff;
+    color: $color_1;
     font-size: 0.8em;
 }
 
@@ -625,7 +624,7 @@ section.top-hotels {
 
     .top-hotel {
         .wrapper-card {
-            background-color: #fff;
+            background-color: $color_1;
             height: 100%;
             border-radius: 6px;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -718,7 +717,7 @@ section.location {
 
         .item-card {
             text-align: center;
-            background: #fff;
+            background: $color_1;
             border-radius: 10px;
             box-shadow: 0 0 7px 0 rgb(0 0 0/13%);
             padding: 2rem 3rem;
