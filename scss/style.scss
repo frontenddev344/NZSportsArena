@@ -570,7 +570,7 @@ section.inner-bnr {
 
 
     &::after {
-        background-color: #00000059;
+        background-color: rgb(0 0 0 / 59%);
         position: absolute;
         inset: 0;
         content: '';
@@ -869,7 +869,7 @@ section.vision-wrapper {
 
 // 
 section.inner-bnr.stadiums {
-    background: url(../images/Stadium.webp);
+    background: url(../images/Stadiums.jpg);
     @include bg-pro;
 }
 

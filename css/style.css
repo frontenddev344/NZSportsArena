@@ -511,7 +511,7 @@ section.inner-bnr {
   z-index: 1;
 }
 section.inner-bnr::after {
-  background-color: rgba(0, 0, 0, 0.3490196078);
+  background-color: rgba(0, 0, 0, 0.59);
   position: absolute;
   inset: 0;
   content: "";
@@ -762,7 +762,7 @@ section.vision-wrapper .vision h5 {
 }
 
 section.inner-bnr.stadiums {
-  background: url(../images/Stadium.webp);
+  background: url(../images/Stadiums.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
