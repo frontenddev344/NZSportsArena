@@ -98,11 +98,12 @@ a.site-logo img {
   font-weight: 400;
 }
 .site-navbar ul li a:hover {
+  background: rgba(255, 255, 255, 0.1);
   color: #cb8670;
 }
 .site-navbar ul li a.active {
   background: rgba(255, 255, 255, 0.1);
-  color: #cb8670;
+  color: #cb8670 !important;
 }
 
 .nav-toggler {

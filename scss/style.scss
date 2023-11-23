@@ -116,13 +116,13 @@ a.site-logo img {
                 font-weight: 400;
 
                 &:hover {
-
+                    background: rgba(255, 255, 255, .1);
                     color: #cb8670;
                 }
 
                 &.active {
                     background: rgba(255, 255, 255, .1);
-                    color: #cb8670;
+                    color: #cb8670 !important;
                 }
             }
         }
