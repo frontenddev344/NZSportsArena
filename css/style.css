@@ -93,6 +93,7 @@ a.site-logo img {
   display: block;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: "Roboto", sans-serif;
   font-weight: 400;
 }
 .site-navbar ul li a:hover {
@@ -221,7 +222,7 @@ footer.footer .knsl-footer-about {
   width: 80%;
   color: #fff;
   font-size: 16px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 footer.footer .knsl-footer-social {
   padding-top: 50px;
@@ -324,13 +325,13 @@ footer.footer .knsl-copyright .container {
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 footer.footer .copy-text {
   text-align: center;
   width: 100%;
   color: #fff;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 footer.footer .copy-text a {
   color: #cb8670;

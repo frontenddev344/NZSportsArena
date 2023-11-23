@@ -38,6 +38,15 @@
     z-index: -1;
 }
 
+@mixin after-pro {
+    position: absolute;
+    inset: 0;
+    content: '';
+    height: 100%;
+    z-index: -1;
+    width: 100%;
+}
+
 @mixin heading-home-bnr {
     color: $color_1;
     font-family: 'Alike', serif;
