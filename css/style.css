@@ -843,6 +843,9 @@ section.inner-bnr.stadiums {
   .content {
     margin-bottom: 30px;
   }
+  section.site-banner {
+    padding: 186px 0 54px;
+  }
 }
 @media screen and (max-width: 767px) {
   section.site-banner .bar-text h1 {
