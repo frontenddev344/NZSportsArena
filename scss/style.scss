@@ -536,9 +536,10 @@ section.privacy.term {
 
 // section.inner-bnr{
 section.inner-bnr {
-    background: url(../images/hotels.png);
+    background: url(../images/hotels-1.jpg);
     @include bg-pro;
     z-index: 1;
+    background-position: bottom;
 
 
     &::after {
@@ -836,8 +837,9 @@ section.vision-wrapper {
 
 // 
 section.inner-bnr.stadiums {
-    background: url(../images/Stadiums.jpg);
+    background: url(../images/stadium-1.jpg);
     @include bg-pro;
+    background-position: bottom;
 }
 
 @import'./responsive';

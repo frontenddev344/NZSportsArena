@@ -496,7 +496,7 @@ section.privacy.term {
 }
 
 section.inner-bnr {
-  background: url(../images/hotels.png);
+  background: url(../images/hotels-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
@@ -507,6 +507,7 @@ section.inner-bnr {
   justify-self: center;
   position: relative;
   z-index: 1;
+  background-position: bottom;
 }
 section.inner-bnr::after {
   background-color: rgba(0, 0, 0, 0.59);
@@ -760,7 +761,7 @@ section.vision-wrapper .vision h5 {
 }
 
 section.inner-bnr.stadiums {
-  background: url(../images/Stadiums.jpg);
+  background: url(../images/stadium-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
@@ -770,6 +771,7 @@ section.inner-bnr.stadiums {
   align-items: center;
   justify-self: center;
   position: relative;
+  background-position: bottom;
 }
 
 @media screen and (max-width: 1199px) {
