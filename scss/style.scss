@@ -12,7 +12,7 @@
 }
 
 p {
-    font-family: "Roboto", sans-serif;
+    font-family: $font-family_1;
 }
 
 ::selection {
@@ -224,7 +224,7 @@ section.diverse {
         P {
             color: $color_black;
             font-size: 16px;
-            font-family: "Roboto", sans-serif;
+            font-family: $font-family_1;
             line-height: 2.25;
             margin-top: 12px;
         }
@@ -285,7 +285,7 @@ footer.footer {
         color: #ECFAFB;
         line-height: 30px;
         font-size: 20px;
-        font-family: "Roboto", sans-serif;
+        font-family: $font-family_1;
     }
 
     .footer-menu li {
@@ -295,7 +295,7 @@ footer.footer {
     ul.footer-menu li a {
         color: $color_1;
         font-size: 16px;
-        font-family: "Roboto", sans-serif;
+        font-family: $font-family_1;
         transition: all 0.3s;
         text-transform: capitalize;
 
@@ -497,7 +497,7 @@ section.resource {
         p {
             color: $color_black;
             font-size: 16px;
-            font-family: "Roboto", sans-serif;
+            font-family: $font-family_1;
             line-height: 2.25;
 
         }
@@ -506,7 +506,7 @@ section.resource {
             li {
                 color: $color_black;
                 font-size: 16px;
-                font-family: "Roboto", sans-serif;
+                font-family: $font-family_1;
                 line-height: 2.25;
                 position: relative;
                 padding-left: 20px;
@@ -579,7 +579,7 @@ section.best-hotels {
         p {
             color: $color_black;
             font-size: 16px;
-            font-family: "Roboto", sans-serif;
+            font-family: $font-family_1;
             line-height: 2.25;
 
         }
@@ -624,13 +624,13 @@ section.top-hotels {
                     font-weight: 700;
                     color: $site-color;
                     font-size: 20px;
-                    font-family: "Roboto", sans-serif;
+                    font-family: $font-family_1;
                 }
 
                 p {
                     color: $color_black;
                     font-size: 16px;
-                    font-family: "Roboto", sans-serif;
+                    font-family: $font-family_1;
                     line-height: 28px;
                 }
 
@@ -676,7 +676,7 @@ section.location {
     .location-wrapper p {
         color: #000;
         font-size: 16px;
-        font-family: "Roboto", sans-serif;
+        font-family: $font-family_1;
         line-height: 28px;
     }
 
